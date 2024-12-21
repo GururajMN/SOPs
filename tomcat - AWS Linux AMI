@@ -14,7 +14,8 @@ Switch to root
 sudo su
 
 Install java
-yum install java-1.8.0-openjdk-devel -y
+sudo yum install java-17-amazon-corretto -y
+
 
 Validate installed java version
 java -version
