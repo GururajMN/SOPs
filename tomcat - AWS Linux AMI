@@ -19,7 +19,7 @@ sudo yum install java-17-amazon-corretto -y
 
 Validate installed java version
 java -version
-You should be able to see java version as “openjdk version “1.8.0_342”
+You should be able to see java version as openjdk version "17.0.13"
 
 Switch to /opt (try installing all tools and plugins on /opt) 
 cd /opt/
