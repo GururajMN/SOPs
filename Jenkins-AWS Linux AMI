@@ -9,8 +9,8 @@ SSH access to the instance with administrative privileges
 
 Installation Steps
 
-# Step 1: Install Java OpenJDK 11
-sudo amazon-linux-extras install java-openjdk11 -y
+# Step 1: Install Java OpenJDK 17
+sudo yum install java-17-amazon-corretto -y
 
 # Step 2: Confirm Java installation
 java -version
